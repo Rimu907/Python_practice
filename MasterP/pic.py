@@ -47,7 +47,7 @@ def ask(q):
             print('please yes or no only')
 try :
     # try to load the fuile, if it is not there we initialize the kb.
-    file = open("animal.kb","rb") # read binary
+    file = open("animal.kb", "rb") # read binary
     kb = pickle.load(file)
     file.close()
 except FileNotFoundError:
@@ -63,7 +63,7 @@ while True:
     else:
         break
     
-file = open("animal.kb","wb") # write binary
+file = open("animal.kb", "wb") # write binary
 pickle.dump(kb,file)
 file.close()              
         

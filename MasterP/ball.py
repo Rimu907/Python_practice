@@ -15,7 +15,7 @@ width,height=1600,900
 FPS = 144
 screen = pygame.display.set_mode((width,height))
 pygame.display.set_caption('pygame!!!!')
-ball = pygame.image.load('giphy.gif','r')
+ball = pygame.image.load('giphy.gif', 'r')
 ballrect = ball.get_rect()
 pygame.mixer.init()
 pygame.mixer.music.load('A:/pythonstudy--/Time.mp3')
